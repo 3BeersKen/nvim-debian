@@ -1,6 +1,4 @@
-# nvim-debian
-
-## Installing the latest Neovim on Debian
+# Installing the latest Neovim on Debian
 
 1. Install build prerequisites
    ```
