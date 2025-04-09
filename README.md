@@ -2,7 +2,7 @@
 
 1. Install build prerequisites
    ```
-   sudo apt install ninja-build gettext cmake curl build-essential
+   sudo apt install ninja-build gettext cmake curl build-essential git
    ```
 2. Clone the repository
    ```
