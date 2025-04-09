@@ -27,7 +27,7 @@
     ```
 5. Build the DEB-package & install it
     ```
-     cd build && cpack -G DEB && sudo dpkg -i nvim-linux64.deb
+     cd build && cpack -G DEB && sudo dpkg -i nvim-linux-x86_64.deb
     ``` 
    - This helps ensure clean removal of installed files.
    - Note: This is an unsupported, "best-effort" feature of the Nvim build.
