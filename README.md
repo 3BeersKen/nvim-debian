@@ -25,9 +25,14 @@
     ```
     make CMAKE_BUILD_TYPE=Release
     ```
-5. Build the DEB-package & install it
+5. Build the DEB-package
     ```
-     cd build && cpack -G DEB && sudo dpkg -i nvim-linux-x86_64.deb
-    ``` 
+     cd build && cpack -G DEB
+    ```
+6. Install the DEB-package
+    ```
+     sudo dpkg -i nvim-linux-x86_64.deb 
+    ```
+   
    - This helps ensure clean removal of installed files.
    - Note: This is an unsupported, "best-effort" feature of the Nvim build.
